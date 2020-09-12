@@ -1,0 +1,82 @@
+
+
+.transactionHeader{
+    margin-top: 5rem;
+    display: flex;  
+    justify-content: center;
+}
+
+.transactionBody {
+
+    margin-top: 2rem;
+ 
+}
+
+
+.transactionItem {
+
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 2rem 2rem;
+    grid-row-gap: 1rem;
+    letter-spacing: .9px;
+    border-bottom: 1px solid rgba(0,0,0, .19) ;
+    transition: all .3s;
+    cursor: pointer
+
+    
+}
+
+.transactionItem:hover {
+
+    background-color: var(--color-primary);
+    color:white;
+}
+
+
+
+.transactionItem:hover > * {
+    color: white
+}
+
+.transactionItem:active {
+
+    background-color: var(--color-primary);
+}
+
+.transactionItem:active > * {
+    color: white
+}
+
+
+
+
+.transactionItem__date {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size:1.2rem;
+    color: rgba(0,0,0, .5);
+    text-transform: uppercase;
+}
+
+.transactionItem__detail {
+
+    color: var(--color-purple);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.transactionItem_amount {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    font-size: 2rem;
+    justify-self: end;
+    
+   
+}
+
+.transactionItem__tap {
+
+    color: var(--color-primary);
+}
+

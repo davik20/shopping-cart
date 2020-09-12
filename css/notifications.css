@@ -1,0 +1,73 @@
+.notifications {
+
+}
+
+.notifications__list
+
+.notifications__listItem {
+    display: flex;
+    padding: 2.5rem 1rem 1rem 2rem;
+   align-items: center;
+   transition: all .2s ease;
+ 
+
+}
+
+.notifications__listItem:not(:last-child){
+
+    border-bottom: 1px solid rgba(0,0,0, .09);
+}
+
+.notifications__listItem:hover {
+
+    background-color: var(--color-primary);
+}
+
+.notifications__listItem:hover  * {
+
+    color: white;
+}
+
+
+.notifications__detail {
+
+    margin-left: 3rem;
+    display:grid;
+    grid-template-columns: auto;
+    grid-row-gap: 1rem;
+
+   
+}
+
+
+
+
+
+.notifications__detail h3 {
+
+    color: var(--color-purple);
+    font-size: 2rem;
+
+}
+
+.notifications__detail h5 {
+
+    color: var(--color-mediumGrey)
+}
+
+
+.notifications__detail p {
+
+    color: var(--color-lightGrey)
+}
+
+
+
+
+
+.notifications__listItem  > i {
+
+    margin-left: auto;
+    color: var(--color-lightGrey);
+}
+

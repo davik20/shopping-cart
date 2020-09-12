@@ -1,0 +1,170 @@
+.cart {
+    margin-top: 2rem;
+}
+
+
+
+.cart__title {
+
+    font-weight: bold;
+    padding: 2rem 1.5rem;
+    font-size: 2rem;
+}
+
+.cart__total {
+    background-color: white;
+    padding: 1.5rem;
+    border: 1px solid rgba(0,0,0, .09);
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.cart__total h3 {
+
+    color: var(--color-mediumGrey);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.cart__total p {
+
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgba(0,0,0, .9)
+}
+
+.continueShopping {
+
+  margin: 1.5rem  0 1rem 1.5rem;
+  padding: 1rem;
+  color: white;
+  border-radius: 4px;
+ 
+}
+
+.continueShopping span {
+
+    margin-right: .5rem;
+}
+
+.cart__list {
+
+}
+
+.cart__listItem {
+    cursor: pointer;
+    margin: 1rem;
+    background-color: white;
+    border: 1px solid rgba(0,0,0, .09);
+    padding-bottom: 1rem;
+    position: relative;
+}
+
+.cart__listItem  > span {
+   position: absolute;
+   background-color: var(--color-lightGrey);
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+   
+   border-radius: 50%;
+   text-align: center;
+ 
+   right: 1rem;
+   top: 1rem;
+}
+
+.cart__info {
+
+    display: flex;
+    padding: 1.5rem 0 .5rem 1.5rem; 
+    align-items: start;
+
+}
+
+.cart__info img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-right: 2.5rem;
+}
+
+ .cart__detail h3 {
+          font-weight: bold;
+          font-size: 1.5rem;
+          margin-bottom: .6rem;
+
+}
+ .cart__detail p {
+          font-weight: bold;
+          font-size: 1.2rem;
+
+}
+ .cart__detail p span {
+         
+          
+          color: var(--color-primary);
+
+}
+
+.cart__quantity {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 1rem 4rem .5rem 1.5rem;;
+    align-items: center;
+    align-content: start;
+    justify-content: space-between;
+  
+}
+
+.cart__buttons {
+
+    display: flex;
+    grid-column: 1/2;
+    grid-row: 2/3;
+   
+}
+
+.cart__buttons button, .cart__buttons > p  {
+    box-shadow: 0 1rem 1rem rgba(0,0,0, .14);
+    
+}
+
+.cart__buttons button {
+    color: black;
+    border: 1px solid rgba(0,0,0, .09);
+    border-radius: 0;
+    padding: .9rem 1.3rem ;
+    font-size: 1.3rem;
+}
+
+
+
+
+.cart__quantity .price {
+
+    color: rgba(0,0,0, .9);
+    font-weight: bold;
+    font-size: 2.5rem;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: end;
+    
+   
+}
+
+.cart__quantity .totalPrice {
+
+    color: var(--color-lightGrey);
+    align-self: start;
+    font-weight: bold;
+    justify-self: end;
+}
+
+
+

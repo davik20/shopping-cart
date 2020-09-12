@@ -1,0 +1,36 @@
+:root {
+
+    --color-primary: #6236FF;
+    --color-warning: #FFB400;
+    --color-success: #20c997;
+    --color-danger: #FF396F;
+    --color-background: #EDEDF5;
+    --color-purple: #27173E;
+    --color-lightGrey: rgba(0,0,0,.3);
+    --color-mediumGrey: rgba(0,0,0,.8);
+    --color-darkBlue: #6610f2;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box !important ;
+}
+
+html {
+   
+    font-size: 10px;
+    
+}
+
+body {
+    position: relative;
+    
+    background-color: var(--color-background);
+     font-family: Lato;
+   
+
+}
+
+

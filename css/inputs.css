@@ -1,0 +1,51 @@
+.appSelector {
+
+    padding: 1rem 1.2rem;
+    background-color: var(--color-primary);
+    color: white;
+    border-radius: .8rem;
+    width: 100%;
+}
+
+.appSelector:focus {
+    outline: white;
+}
+
+
+/*  input */
+.appInput__label {
+    
+color: var(--color-purple);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+
+
+}
+
+.appInput {
+    margin: 1rem 0;
+}
+
+.appInput input {
+
+    width: 100%;
+    border-radius: .5rem;
+    border: 1px solid var(--color-lightGrey);
+    padding: .6rem;
+    transition: all .3s;
+}
+
+.appInput input::placeholder {
+
+    text-transform: capitalize;
+}
+
+.appInput input:focus {
+
+    outline: 1px solid var(--color-primary);
+}
+
+
+

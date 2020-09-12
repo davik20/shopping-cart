@@ -1,0 +1,69 @@
+.appCard{
+    
+    
+    
+    border-bottom: none;
+    border-radius: .7rem;
+    box-shadow: 0 1rem 1.5rem rgb(0,0,0, .09);
+    position: relative;
+    background-color: white;
+ 
+    
+   
+ }
+
+
+ .appCardForm {
+      margin: 3rem 0;
+      padding: 0 1.5rem;
+ }
+
+ .appCardForm__title {
+
+    color: var(--color-lightGrey);
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 1.4rem
+
+ }
+
+ .appCardForm__body {
+      
+    background-color: white;
+    padding: 1rem 2rem;
+
+ }
+
+
+ .appCardForm__list {
+
+ }
+
+ 
+ .appCardForm__listItem {
+     display: flex;
+     align-items: center;
+     padding: 1.5rem 0;
+     cursor: pointer
+}
+ 
+
+
+.appCardForm__listItem:not(:last-child) {
+    border-bottom: 1px solid rgba(0,0,0, .09);
+}
+
+.appCardForm__listItem p {
+
+    color: var(--color-purple);
+    font-size: 1.5rem;
+   
+    text-transform: capitalize;
+}
+
+.appCardForm__listItem i {
+    margin-left: auto;
+    color: var(--color-lightGrey);
+   
+}
+

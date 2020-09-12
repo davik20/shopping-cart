@@ -1,0 +1,22 @@
+@import "./main.css";
+@import "./app.css";
+
+@import "./utility.css";
+@import "./buttons.css";
+
+@import "./navbar.css";
+@import "./dashboard.css";
+@import "./transaction.css";
+@import "./inputs.css";
+@import "./modals.css";
+@import "./send.css";
+@import "./cards.css";
+@import "./transactionDetail.css";
+@import "./page.css";
+@import "./notifications.css";
+@import "./settings.css";
+@import "./searchbar.css";
+@import "./products.css";
+@import "./cart.css";
+
+

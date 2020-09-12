@@ -1,0 +1,54 @@
+.send {
+
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 80%;
+    grid-auto-rows: auto;
+    
+    justify-content: center;
+}
+
+
+.send__selectBank {
+
+    margin-bottom: 2rem;
+}
+
+.send__transferTo {
+
+    padding: 2rem 3rem;
+    padding-top: 0;
+}
+
+.send__transferFrom {
+    
+    padding: 1rem;
+    padding-top: 0;
+    
+    text-align: center;
+}
+
+.send__transferTitle {
+
+    background-color: var(--color-lightGrey);
+    color:white;
+    font-size: 1.3rem;
+    text-align:left ;
+    padding: 1rem 1.3rem;
+    margin-bottom: 3rem;
+}
+
+.send__transferFrom h3 {
+
+    font-size: 2.3rem;
+    color: var(--color-lightGrey);
+    font-weight: bold;
+}
+
+.send__transferFrom p{
+   font-size: 1.2rem;
+   color: var(--color-primary);
+}
+
+
+

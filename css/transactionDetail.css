@@ -1,0 +1,64 @@
+
+
+
+
+.transactionDetail__body {
+    padding: 2.5rem 1.5rem 0 1.5rem;
+
+}
+
+.transactionDetail__type {
+
+    width: 100%;
+    text-align: center;
+}
+
+.transactionDetail__type button {
+
+       width: 6.5rem;
+       height: 6.5rem;
+      
+}
+
+.transactionDetail__type p {
+
+    color: var(--color-purple);
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+
+.transactionDetail__info {
+
+    margin-top: 4rem;
+}
+
+.transactionDetail__list {
+
+}
+
+.transactionDetail__listItem {
+
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+}
+
+.transactionDetail__listItem:not(:last-child){
+
+    border-bottom: 1px solid rgba(0,0,0, .1);
+}
+
+.transactionDetail__listItem .title {
+
+    color: var(--color-purple);
+    font-size: 1.8rem;
+    
+}
+
+.transactionDetail__listItem .detail {
+
+    color: var(--color-mediumGrey);
+    font-size: 1.2rem;
+    
+}

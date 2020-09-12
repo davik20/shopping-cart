@@ -1,0 +1,310 @@
+.appNavbar {
+
+    display: flex;
+    padding: 2rem 2rem ;
+    background-color: white;
+    justify-content: space-between;
+  
+    top: 0;
+    width: 100%;
+    align-items: center;
+
+    
+}
+
+
+.appNavbar__hamburger {
+    position: relative;
+    width: 2rem;
+    height: .15rem;
+    background-color: white;
+}
+
+.appNavbar__hamburger:active {
+
+    transform: scale(.8);
+}
+
+.appNavbar__hamburger::before {
+    content: "";
+    position: absolute;
+    top: .5rem;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.appNavbar__hamburger::after {
+    content: "";
+    position: absolute;
+    bottom: .5rem;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.appNavbar__logo {
+    font-size: 2rem;
+    color: var(--color-danger);
+    font-weight: bold;
+    letter-spacing: 1.5px;
+  
+}
+
+.appNavbar__logo:hover {
+
+    transform: scale(1.15);
+    color: var(--color-danger)
+}
+
+
+
+
+.appNavbar__notification {
+    
+    position: relative;
+}
+
+
+.appNavbar__notification i {
+
+    font-size: 2rem;
+    color: var(--color-mediumGrey);
+  
+}
+
+
+.appNavbar__notification img {
+    margin-left: 2rem;
+    width: 3rem;
+    border-radius: 6px;
+}
+
+.appNavbar__notification span {
+
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: -1rem;
+    left: 1rem;
+    width: 1.5rem;
+    width: 2rem;
+    font-size: 1.2rem;
+   
+    text-align: center;
+    border-radius: 50%;
+    background-color: red;
+
+}
+
+
+
+
+
+.appNavbarContent {
+
+    width: 100vw;
+    height: 4000px;
+    background-color: rgba(0,0,0,.5);
+    opacity: 1;
+    position: fixed;
+    top: 0;
+    overflow-y: scroll;
+    z-index: 10;
+    
+   
+}
+
+.appNavbarContent__main {
+
+    height: 100%;
+    background-color: white;
+    width: 65%;
+    
+}
+
+.appNavbarContent__header {
+    
+
+}
+
+.appNavbarContent__details  {
+
+    display: flex;
+   
+    align-items: center;
+   align-content: center;
+   padding: 1rem 2rem;
+padding: 1rem 2rem;
+   
+}
+
+.appNavbarContent__details img {
+
+    width: 4rem;
+    margin-right: 2rem;
+
+}
+
+.appNavbarContent__name {
+
+    align-self: center;
+    margin-top: 1rem;
+    
+
+}
+
+.appNavbarContent__name h5 {
+
+    font-size: 1.5rem;
+    color: var(--color-purple);
+}
+
+.appNavbarContent__name p {
+
+    color: var(--color-lightGrey);
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.appNavbarContent__details i {
+
+    margin-left: auto;
+    color: var(--color-primary);
+    font-size: 2.5rem;
+    transition: all .3s;
+}
+
+.appNavbarContent__details i:active {
+    transform: scale(.8);
+}
+
+.appNavbarContent__account {
+
+    background-color: var(--color-primary);
+    padding: 1.5rem 2rem;
+}
+
+.appNavbarContent__balance {
+     color: white;
+     font-size: 1.4rem;
+     opacity: .6;
+}
+
+
+
+
+.appNavbarContent__quickLinks {
+
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 1.5rem;
+}
+
+.appNavbarContent__amount {
+
+
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+
+
+/* Navbar body */
+.appNavbarContent__body {
+  
+    padding: 1rem 2rem;
+    margin-top: 1.5rem;
+
+
+}
+
+.appNavbarContent__body > p {
+
+    color: var(--color-lightGrey);
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+
+.appNavbarContent__list {
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-auto-rows: auto;
+    grid-row-gap: 1rem;
+   
+}
+
+.appNavbarContent__listItem {
+
+    display: flex;
+    align-items: center;
+    transition: all .3s ease;
+    cursor: pointer
+}
+
+.appNavbarContent__listItem > p {
+     margin-left: 2rem;
+     color: #27173E;
+     font-size: 1.7rem;
+
+}
+
+
+.appNavbarContent__listItem > i {
+    margin-left: auto;
+    color: var(--color-lightGrey);
+}
+
+
+
+
+
+/* Transitions */
+.appNavbarContent__listItem:hover {
+    
+    background-color: rgba(0,0,0,.06);
+   
+}
+
+.appNavbarContent__listItem:active {
+    
+    background-color: rgba(0,0,0,.06);
+   
+}
+
+
+
+/* Animations */
+
+.NAVBAR-enter {
+    
+    opacity: 0;
+    transform: translateX(-100rem);
+     
+}
+
+
+
+.NAVBAR-enter-active {
+    
+    opacity: 1;
+    transform: translateX(0);
+
+    transition: all .5s ease;
+     
+}
+
+
+.NAVBAR-exit-active {
+    
+    opacity: 0;
+    transform: translateX(-100rem);
+
+    transition: all 1s ease;
+     
+}

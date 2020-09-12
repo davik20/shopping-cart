@@ -1,0 +1,67 @@
+.appDashboard {
+  
+    
+   
+}
+
+ 
+.appDashboard__blueBackground {
+
+    background-color: var(--color-primary);
+    height: 10em;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    
+    
+}
+
+
+
+.balance {
+
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.08);
+    background-color: white;
+    padding: 3rem 2rem;
+    padding-top: 3rem;
+    border-radius: 1rem;   
+}
+
+.balance > p {
+      font-size: 1.8rem;
+      color: var(--color-purple);
+     margin-bottom: 0;
+      
+}
+
+.balance__amount {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.6rem;
+
+}
+
+.balance__amount i {
+
+    font-size: 2rem;
+    background-color: var(--color-background);
+    padding: 1rem;
+    color: var(--color-primary)
+}
+
+.balance__amount h3 {
+    color: var(--color-purple);
+    font-size:  3rem;
+
+}
+
+
+
+
+
+.balance__actions {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
